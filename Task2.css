@@ -1,0 +1,162 @@
+@media screen and  (min-width : 768px) and (max-width : 1024px)
+ {
+    body
+    {
+        background-color: lightblue;
+    }
+}
+@media screen and (min-width : 600px) {
+    
+    p
+    {
+        font-size : 18px;
+    }
+}
+.box1
+{
+    background-color: lightgreen;
+}
+.box2
+{
+    background-color: lightcoral;
+}
+.container
+{
+    border: 2px solid black;
+    /* height: 100px; */
+}
+@media screen and (min-width: 480px) {
+    
+    .container
+    {
+        display: flex;
+    }
+}
+@media screen and (min-width : 500px) and (max-width : 800px) {
+    h1
+    {
+        color: green;
+    }
+    
+    
+}
+img
+    {
+        height: 300px;
+    }
+    @media screen and (max-width : 400px){
+        img
+        {
+            display: none;
+        }
+        
+    }
+.container2
+{
+    border: 2px solid black;
+    display: inline-block;
+}
+@media screen and (min-width : 1024px) {
+    .container2
+    {
+        padding: 20px;
+    }
+
+    
+}
+header
+{
+    background-color: black;
+    height: 20px;
+}
+@media screen and (min-width : 600px) and (max-width  : 1200px){
+    header
+    {
+        background-color: lightgray;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .container3>p
+    {
+        font-size: 16px;
+    }
+}
+.Media
+{
+    background-color: cadetblue;
+}
+.Queries
+{
+    background-color: lightcoral;
+}
+.container4
+{
+    display: flex;
+}
+@media screen and (max-width : 1200px) and (min-width : 768px) {
+    .container4
+{
+    display: flex;
+    flex-direction: column;
+}
+    
+}
+@media screen and (max-width : 1200px) and (min-width : 700px){
+    a
+    {
+        color: blue;
+    }
+}
+@media screen and (max-width : 800px) and (min-width : 500px) {
+    h2
+    {
+        font-size: 24px;
+    }
+}
+.container5
+{
+    border: 2px solid black;
+    height: 100px;
+    display: none;
+    background-color: cadetblue;
+}
+@media screen and (min-width : 1024px) {
+    .container5
+    {
+        display: block;
+    }
+}
+.container6
+    {
+        border: 2px solid black;
+    }
+
+@media screen and (max-width : 1200px) and (min-width : 800px){
+    .container6
+    {
+        width: 250px;
+    }
+    
+}
+.yellow
+{background-color: yellow;}
+.blue
+{
+    background-color: blue;
+}
+.green
+{
+    background-color: green;
+}
+.container7
+{
+    display: flex;
+}
+@media screen and (min-width : 600px) {
+    .container7
+    {
+        flex-direction: column;
+    }
+    
+}
