@@ -40,12 +40,12 @@
     
     
 }
-img
+.image>img
     {
         height: 300px;
     }
     @media screen and (max-width : 400px){
-        img
+        .image>img
         {
             display: none;
         }
